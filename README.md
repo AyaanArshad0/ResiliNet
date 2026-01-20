@@ -76,9 +76,9 @@ sudo ./target/release/resilinet \
 ### Telemetry Dashboard
 Once connected, the TUI (Terminal User Interface) will visualize the throughput and the "recovered" packets that would have otherwise been lost.
 
-## 5. Future Work (DCW Roadmap)
+## 5. Future Work
 
-This prototype serves as the foundation for a Directed Course Work (DCW) proposal. Future objectives include:
+ Future objectives include:
 
 - **Formal Verification**: Modeling the sliding window protocol in TLA+.
 - **Auditability**: Integrating an immutable session ledger for access control compliance.
