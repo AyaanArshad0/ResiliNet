@@ -288,7 +288,7 @@ async fn main() -> Result<()> {
         }
     });
 
-    // Keep main thread alive until TUI exits
+   
     let _ = tui_handle.join();
     Ok(())
 }
